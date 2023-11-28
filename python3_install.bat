@@ -59,9 +59,6 @@ pip install --user --force-reinstall python-telegram-bot
 
 echo Cai dat thanh cong!
 
-
-echo Cai dat thanh cong!
-
 echo Ung dung dang khoi chay...
 
 start store_heatmap_analysis.bat
