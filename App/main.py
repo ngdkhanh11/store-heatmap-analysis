@@ -151,6 +151,7 @@ def runApplication(progress_dialog, video_path):
             break
 
         try:
+            cv2.namedWindow(title, cv2.WINDOW_NORMAL)
             cv2.imshow(title, frame)
         except Exception as e:
             video = VideoStream(VIDEO_DATASET).start()
